@@ -6,7 +6,7 @@
 extern pthread_mutex_t queueMutex;
 extern pthread_cond_t queueCond;
 
-void Consumer(void) {
+void consume_process(void) {
     Item data;
     // Run the consumer loop
     while(1) {

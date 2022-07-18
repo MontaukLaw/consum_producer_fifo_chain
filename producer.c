@@ -6,7 +6,7 @@
 extern pthread_mutex_t queueMutex;
 extern pthread_cond_t queueCond;
 
-void producer_process() {
+void producer_process(void) {
     //First we get some new data
 
     Item data = rand() % 1000;
