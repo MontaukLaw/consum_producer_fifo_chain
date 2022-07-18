@@ -1,0 +1,4 @@
+# ninja log v5
+12	29	1658159913358362448	CMakeFiles/fifo_chain.dir/fifo_chain.c.o	63383f7b18de4928
+0	12	1658159913342362127	CMakeFiles/fifo_chain.dir/main.c.o	54075a87e3a726e3
+29	48	1658159913378362852	fifo_chain	81805b6425b2ec48
