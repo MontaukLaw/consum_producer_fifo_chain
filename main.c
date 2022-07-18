@@ -23,11 +23,14 @@ int main() {
         return 0;
     }
 
-    res = pthread_create(&consumeThread, NULL, producer_process, NULL);
+    res = pthread_create(&producerThread, NULL, producer_process, NULL);
     if (res != 0) {
         printf("producer thread create failed");
         return 0;
     }
+
+    pthread_join(consumeThread,NULL);
+    pthread_join(producerThread,NULL);
 
     return 0;
 }
